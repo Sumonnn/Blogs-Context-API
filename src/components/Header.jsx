@@ -2,9 +2,9 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      <header>
-        <h1 className='text-5xl font-semibold'>Tech's Blogs</h1>
+    <div className='border py-3 shadow-lg w-full'>
+      <header className='text-center'>
+        <h1 className='text-3xl uppercase font-semibold'>Tech's Blogs</h1>
       </header>
     </div>
   )

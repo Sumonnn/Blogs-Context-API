@@ -15,7 +15,7 @@ function App() {
   },[])
 
   return (
-    <div>
+    <div className="w-full h-full flex flex-col items-center justify-center gap-x-1">
       <Header />
       <Blogs />
       <Pagination />
